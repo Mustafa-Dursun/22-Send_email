@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Popinis', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.container{
+    background-color: #fff;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 8px 8px 9px;
+}
+
+h2{
+    letter-spacing: 2px;
+}
+
+p{
+    color: #333;
+}
+
+p span{
+    display: block;
+    color: #e96b46;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.code-container{
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.code-container .code{
+    font-family: inherit;
+    width: 50px;
+    height: 70px;
+    margin: 1%;
+    font-size: 3rem;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.code::-webkit-inner-spin-button, .code::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.code:focus{
+    outline: none;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.25);
+}
+
+.code:valid{
+    border-color: #e96b46;
+}
+
+small{
+    color: #333;
+}
+
+small a{
+    font-weight: bold;
+    color:#e96b46 ;
+}
+
+.back{
+    margin-top: 20px;
+}
+
+.back a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #e96b46;
+}
